@@ -15,3 +15,21 @@ export const POSSIBLE_ANIMATION_DELAYS = [
   "0.4s",
   "0.5s",
 ];
+
+export const STEPS = [
+  {
+    name: "Step 1: Add image",
+    description: "Choose an image for your case",
+    url: "/upload",
+  },
+  {
+    name: "Step 2: Customize design",
+    description: "Make the case yours",
+    url: "/design",
+  },
+  {
+    name: "Step 3: Summary",
+    description: "Review your final design",
+    url: "/preview",
+  },
+];
